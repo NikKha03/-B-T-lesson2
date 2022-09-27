@@ -12,7 +12,7 @@ body {
 .navbar{
     width: 100%;
     height: 70px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, .1);
+    box-shadow: 0 4px 11px rgba(0, 0, 0, .1);
 }
 
 .navbar .container {
@@ -54,23 +54,64 @@ body {
    display: flex;
    align-items: center;
    margin-right: 55px;
+   margin-left: 440px;
 }
 
-.account {
-    margin-left: 380px;
-    background-color: rgb(214, 78, 35);
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
-    border-radius: 6px;
-    padding: 6px 20px;
-}
-
-.navbar-brand {
+.navbar-logo {
     font-weight: 1000;
     font-size: 30px;
     text-decoration: none;
-    color: rgb(37, 171, 212);
+    color: rgb(19, 66, 196);
     margin-left: 55px;
     
+}
+
+.navbar-name {
+    font-weight: 10;
+    font-size: 26px;
+    text-decoration: none;
+    color: black;
+    margin-bottom: -5px;
+    
+}
+
+.d {
+    margin-top: 10px;
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 18px;
+    text-transform: uppercase;
+    
+    
+}
+
+.d li {
+    padding: 10px 20px;
+}
+
+.d li.active {
+    background-color: #2b2bc4;
+    color: white;
+}
+
+.d i {
+    margin-right: 5px;
+}
+
+.d li a {
+    color: inherit;
+    text-decoration: none;
+}
+
+div.about .info_row {
+    text-transform: uppercase;
+    display: flex;
+    margin-left: -40px;
+    
+}
+
+ul {
+    list-style-type: none;
 }
